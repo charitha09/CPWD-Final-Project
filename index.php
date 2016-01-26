@@ -8,9 +8,10 @@
     <script type="text/javascript" src="style/common-script.js"></script>
 </head>
 <body>
+    <div id="main-container">
     <?php 
         include 'includes/header.php'; 
     ?>
-    
+    </div>    
 </body>
 </html>
