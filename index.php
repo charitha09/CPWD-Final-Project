@@ -12,6 +12,8 @@
     <?php 
         include 'includes/header.php';
         
+        include 'includes/cover.php';
+        
         include 'includes/footer.php';
     ?>
     </div>    

@@ -5,6 +5,11 @@ body, h1, h2, h3, h4, a{
 
 a{
     text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #ccc;
 }
 
 #main-container{
@@ -38,6 +43,7 @@ a{
 
 #header-navi-menu{
     display: none;
+    background-color: #dc3c2f;
 }
 
 #header-navi-menu ul{
@@ -46,9 +52,7 @@ a{
     text-align: center;
 }
 
-#header-navi-menu ul li {
-    border-left-style: solid;
-    border-width: 0.5px;
+#header-navi-menu ul a li{
     display: inline;
     height: 40px;
     list-style: outside none none;
@@ -56,18 +60,98 @@ a{
     padding-right: 5px;
 }
 
-#header-navi-menu ul li:first-child{
+#header-navi-menu ul a li:hover{
+    background-color: #fff;
+}
+
+#header-navi-menu ul a{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+#header-navi-menu ul a:hover{
+    color: #dc3c2f;
+}
+
+/*Cover Styles*/
+#cover{
+    height: 350px;
+    background-color: #dc3c2f;
+}
+
+#cover-navi {
+    border-right: 0.5px solid #fff;
+    display: inline;
+    float: left;
+    height: inherit;
+    margin-left: 20px;
+    width: 239px;
+}
+
+.cover-navi-items {
+  border-top: 1px solid #fff;
+  height: 50px;
+  width: 100%;
+}
+
+#cover-navi a:first-child div{
     border: none;
+    margin-top: 25px;
 }
 
-#header-navi-menu a{/*********************************************************************/
-
+#cover-navi h3 {
+    float: right;
+    font-size: 1em;
+    padding: 15px 35px 0 0;
 }
+
+#cover-navi a div:hover{
+    background-color: #fff;
+}
+
+#cover-navi a:hover{
+    color: #dc3c2f;
+}
+
+#cover-banner {
+    display: inline;
+    float: right;
+    height: inherit;
+    width: 720px;
+}
+
+#cover-footer {
+    background-color: #000;
+    border-top: 1px solid #fff;
+    height: 58px;
+    opacity: 0.3;
+    position: relative;
+    top: 290px;
+    width: inherit;
+}
+
+#cover-footer h2,h3{
+    float: right;
+    padding-right: 20px;
+}
+
+#cover-footer h2{
+    color: #ff9c00;
+    font-size: 1.8em;
+}
+
+#cover-footer h3{
+    color: #d5d5d5;
+    font-size: 1em;
+}
+
+
 
 /*footer styles*/
 #main-footer{
     height: 75px;
     width: 100%;
+    margin-top: 10px;
     background-color: #dc3c2f;
 }
 
@@ -149,7 +233,16 @@ a{
         display: block;
     }
 }
-
+/*Cover Media*/
+@media (max-width: 980px) {
+    #cover-navi{
+        display: none;
+    }
+    #cover-banner{
+        width: 760px;
+        border-top: 1px solid #fff;
+    }
+}
 /*Footer Media*/
 @media (max-width: 980px) {
     #main-footer{
@@ -159,7 +252,7 @@ a{
         height: 100px;
     }
     #footer-contact-details {
-        width: 940px;
+        width: auto;
     }
     #footer-media-logo {
         width: auto;
