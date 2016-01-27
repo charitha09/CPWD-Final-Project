@@ -1,6 +1,6 @@
 <header id="main-header">
-    <img src="images/logo.png" alt="My Vacation Rental" class="logo"> 
-    <img src="images/logo-text.png" alt="My Vacation Rental" class="logo">
+    <img src="images/header/logo.png" alt="My Vacation Rental" class="logo"> 
+    <img src="images/header/logo-text.png" alt="My Vacation Rental" class="logo">
     <h4>h1 lorem ipsum dolor, consectetur adipiscing elit. Pellentesque pulvinar purus in</h4>
     <div id="header-navi-menu">
         <ul>
