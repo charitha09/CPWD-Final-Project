@@ -1,0 +1,25 @@
+#map-canvas {
+    height: 400px;
+    width: 400px;
+    margin: 0px;
+    padding: 0px
+}
+
+.margin-set {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+}
+
+#left-bucket {
+    float: left;
+    width: 700px;
+}
+
+#right-bucket {
+    float: right;
+    height: 500px;
+    margin-left: 20px;
+    width: 220px;
+}

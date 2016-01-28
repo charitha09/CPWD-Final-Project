@@ -46,31 +46,29 @@ a:hover{
     background-color: #dc3c2f;
 }
 
-#header-navi-menu ul{
+#header-navi-menu ul {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-#header-navi-menu ul a li{
-    display: inline;
-    height: 40px;
-    list-style: outside none none;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-#header-navi-menu ul a li:hover{
-    background-color: #fff;
-}
-
-#header-navi-menu ul a{
-    border-right: 1px solid #fff;
+#header-navi-menu ul li {
     border-left: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 2px;
 }
 
-#header-navi-menu ul a:hover{
+#header-navi-menu ul li:first-child {
+    border-left: none;
+    margin-left: 20px;
+}
+#header-navi-menu ul li a{
+    padding: 10px 2px;
+}
+
+#header-navi-menu ul li a:hover{
+    background-color: #fff;
     color: #dc3c2f;
+    
 }
 
 /*Cover Styles*/
@@ -118,15 +116,22 @@ a:hover{
     float: right;
     height: inherit;
     width: 720px;
+    overflow: hidden;
 }
 
+#cover-image {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
 #cover-footer {
     background-color: #000;
     border-top: 1px solid #fff;
+    bottom: 58px;
     height: 58px;
     opacity: 0.3;
     position: relative;
-    top: 290px;
     width: inherit;
 }
 
@@ -145,6 +150,21 @@ a:hover{
     font-size: 1em;
 }
 
+/*Page Parth Styles*/
+#pagelocationview{
+    height: 75px;
+}
+
+#pagelocationview h2 {
+    color: #7e7f7f;
+    font-size: 1.5em;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+#pagelocationview h2 a{
+    color: #5bafff;
+}
 
 
 /*footer styles*/
@@ -227,7 +247,7 @@ a:hover{
         font-size: 0.5em;
     }
     #main-header{
-        height: 102px;
+        height: 120px;
     }
     #header-navi-menu{
         display: block;
