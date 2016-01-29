@@ -1,25 +1,24 @@
 #map-canvas {
     height: 400px;
-    width: 400px;
+    width: auto;
     margin: 0px;
     padding: 0px
 }
 
-.margin-set {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: auto;
-}
-
-#left-bucket {
-    float: left;
-    width: 700px;
-}
-
-#right-bucket {
-    float: right;
-    height: 500px;
-    margin-left: 20px;
-    width: 220px;
+@media (max-width: 980px) {
+    #right-bucket{
+        height: 375px;
+        width: auto;
+    }
+    .right-bucket-sub {
+        display: inline-table;
+        margin-right: 10px;
+        width: 210px;
+    }
+    .right-bucket-sub a{
+        font-size: 0.7em;
+    }
+    #right-bucket div:last-child{
+        margin-right: 40px;
+    }
 }

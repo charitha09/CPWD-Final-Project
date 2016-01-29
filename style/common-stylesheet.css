@@ -263,6 +263,69 @@ a:hover{
         border-top: 1px solid #fff;
     }
 }
+/*common for some pages body items*/
+.margin-set {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+}
+
+.margin-set h2 {
+    border-bottom: 2px solid #ff9c00;
+    color: #464646;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    padding: 5px 0 10px;
+}
+
+.margin-set p {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #949494;
+}
+
+#left-bucket {
+    float: left;
+    width: 700px;
+}
+
+#left-bucket-details{
+    width: auto;
+}
+
+#right-bucket {
+    float: right;
+    height: auto;
+    margin-left: 20px;
+    width: 220px;
+}
+
+.right-bucket-sub {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.right-bucket-sub a{
+    color: #ff9c00; 
+    font-size: 0.8em;
+    margin-left: 135px;
+}
+
+.right-sub-image {
+    height: 150px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: auto;
+}
+
+.slide-show-images {
+    height: 100%;
+    width: 100%;
+}
+
 /*Footer Media*/
 @media (max-width: 980px) {
     #main-footer{
