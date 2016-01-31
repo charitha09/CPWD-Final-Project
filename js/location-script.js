@@ -1,22 +1,21 @@
 function initialize() {
 // Marker position
-        var paceLatLng = new google.maps.LatLng(6.844786, 79.940494);
+        var location = new google.maps.LatLng(5.972583, 80.520959);
          
         var mapOptions = {
             zoom: 14,
-            center: paceLatLng
+            center: location
         }
      
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
  
-// Customized Map Marker
- 
+// Customized Map Marker 
         var icon = 'images/location/map-marker.png';
         var marker = new google.maps.Marker({
-            position: paceLatLng,
+            position: location,
             map: map,
             icon: icon,
-            title: 'PACE Institute'
+            title: 'Charitha Home'
         });
     }
  
