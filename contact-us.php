@@ -12,7 +12,7 @@
         <div id="left-bucket-details">
             <h2>CONTACT US</h2>
             <p>Contact us for more informations on prices, discounts, touristic areas or complaints</p>
-            <form method="POST" name="contact-form" target="contact-us.php">
+            <form method="POST" name="contact-form" action="contact-us.php">
                 <div class="input-label"><div class="form-label"><label for="name" >NAME</label></div>
                     <input type="text" placeholder="Enter Your Name" id="name" class="form-input"></div>
                 <div class="input-label"><div class="form-label"><label for="l_name">LAST NAME</label></div>
