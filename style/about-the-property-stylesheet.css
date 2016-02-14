@@ -1,0 +1,43 @@
+#left-bucket-details-left {
+    float: left;
+    height: 215px;
+    width: 380px;
+}
+
+#left-bucket-details-right {
+    float: right;
+    height: 215px;
+    overflow-y: auto;
+    width: 300px;
+}
+
+#left-bucket-details-left img {
+    height: 100%;
+    width: 100%;
+}
+
+#left-bucket-discription {
+    max-height: 400px;
+    position: relative;
+    top: 20px;
+    overflow-y: auto;
+    width: 700px;
+}
+
+@media (max-width: 980px) {
+    #right-bucket{
+        height: 375px;
+        width: auto;
+    }
+    .right-bucket-sub {
+        display: inline-table;
+        margin-right: 100px;
+        width: 210px;
+    }
+    .right-bucket-sub a{
+        font-size: 0.7em;
+    }
+    #right-bucket div:last-child{
+        margin-right: 100px;
+    }
+}

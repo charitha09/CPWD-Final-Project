@@ -50,7 +50,7 @@
                 </div>                
             </div>
             
-            <a href="about-the-property.php">READ MORE</a>
+            <a href="index.php">READ MORE</a>
         </div> 
     </div> 
 </div>

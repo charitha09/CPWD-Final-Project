@@ -21,7 +21,24 @@ $mysqli = mysqli_connect(SERVER, USNAME, PASSWD, DBNAME);
 
 
 /*Printing HTML headder to document*/
-if( $title == "Location"){
+if ( $title == "My Vaction Rental"){
+$htmlheader .= <<<HTH
+<!DOCTYPE html>
+<html>
+<head>
+    <title>$title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/common-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="$cssfile">
+</head>
+<body>
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+    <script type="text/javascript" src="$jsfile"></script>    
+    <div id="main-container">
+HTH;
+}
+elseif ( $title == "Location"){
 $htmlheader .= <<<HTH
 <!DOCTYPE html>
 <html>
@@ -38,8 +55,6 @@ $htmlheader .= <<<HTH
     <script type="text/javascript" src="$jsfile"></script>    
     <div id="main-container">
 HTH;
-
-echo $htmlheader;   
 }else{
 $htmlheader .= <<<HTH
 <!DOCTYPE html>
@@ -55,10 +70,8 @@ $htmlheader .= <<<HTH
     <script type="text/javascript" src="$jsfile"></script>    
     <div id="main-container">
 HTH;
-
-echo $htmlheader;      
 }
-
+echo $htmlheader;  
 
 /*Making navi-items Array to store navi items*/
 $sql = "SELECT item FROM navi_items"; 
