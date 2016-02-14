@@ -1,7 +1,13 @@
 .gallery-imgbox {
-    background-color: #ccc;
     display: inline-block;
     height: 200px;
     margin: 5px;
     width: 300px;
+}
+
+@media (max-width: 980px) {
+    .gallery-imgbox {
+        height: 160px;
+        width: 226px;
+    }
 }
