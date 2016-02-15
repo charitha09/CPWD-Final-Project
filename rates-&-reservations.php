@@ -9,7 +9,28 @@
 ?>
 <div class="margin-set">
     <div id="left-bucket">
-        
+        <div id="left-bucket-details">
+            <h2>RATES AND RESERVATIONS</h2>
+            <h4>RATES</h4>
+            <table>
+                <tr><th></th><th>Weeknight</th><th>Weekend night</th><th>Weekly</th><th>Monthly</th><th>Minimum Stay</th></tr>
+                <tr><td>Rate Summary</td><td>$70 - $75</td><td>$70 - $75</td><td>$350 - $375</td><td>$1100 - $1200</td><td>2 nights</td></tr>
+                <tr><td>Apr. 1 2013 - Dec. 31 2013</td><td>$70</td><td>$70</td><td>$350</td><td>$1100</td><td>2 nights</td></tr>
+                <tr><td>Jan. 1 2014 - Dec. 31 2014</td><td>$70</td><td>$70</td><td>$375</td><td>$1200</td><td>2 nights</td></tr>
+                <tr><td>All Other Dates</td><td>$70</td><td>$70</td><td>$350</td><td>$1100</td><td>2 nights</td></tr>
+            </table>
+            <div id="more-rates">
+                <h3>Cant rate for your travel dates?<a href="contact-us.php">contact the owner</a></h3>
+            </div>
+            <h4>ADDITIONAL NOTES</h4>
+            <ul>
+                <li>2013 Kandy Esala Perehera dates to be confirmed (tentatively 8-20 August).
+Rates above are inclusive of local taxes.</li>
+                <li>in peak seasons (including December - January and Perahera season) a 5 night minimum may apply.</li>
+                <li>In accordance with local customs and laws we do not accept unmarried Sri Lankan couples.</li>
+                <li>Guests are required to sign our "Standard Rental Agreement and Contract"</li>
+            </ul>
+        </div>
     </div>
     <div id="right-bucket">
         <div class="right-bucket-sub">
